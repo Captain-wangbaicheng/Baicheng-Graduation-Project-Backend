@@ -11,8 +11,8 @@ import os
 
 # Create your views here.
 
-user_train = pd.read_csv(
-    "D:\\Captain America\\大学高等教育\\毕业设计\\算法\\数据集\\train_del.csv", encoding="gbk")
+# user_train = pd.read_csv(
+#     "D:\\Captain America\\大学高等教育\\毕业设计\\算法\\数据集\\train_del.csv", encoding="gbk")
 # user_test = pd.read_csv(
 #     "D:\\Captain America\\大学高等教育\\毕业设计\\算法\\数据集\\train+test.csv", encoding="gbk")
 
