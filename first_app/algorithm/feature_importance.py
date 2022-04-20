@@ -57,7 +57,7 @@ def XGBoost_function(train, test):
     # model.save_raw = myfun
 
     result_data = pd.DataFrame()
-    temp = list(user_test[0:1])
+    temp = list(test[0:1])
     temp.pop(1)
     t = np.array(temp)
     result_data['feature_name'] = t

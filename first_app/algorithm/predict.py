@@ -304,10 +304,27 @@ def predict_function(train1, test):
     result_data['avg_dist_cnt_y2_dense'] = test['avg_dist_cnt_y2_dense']
     # 最近3年偏好出发地的平均回旋半径
     result_data['avg_pref_orig_radius_y3_dense'] = test['avg_pref_orig_radius_y3_dense']
-    # 最近3年总的订票次数
+    # 最近3年总订票次数
     result_data['tkt_book_cnt_y3_dense'] = test['tkt_book_cnt_y3_dense']
     # 最近3年平均订票时间间隔
     result_data['tkt_avg_interval_y3_dense'] = test['tkt_avg_interval_y3_dense']
+    # AB1015
+    result_data['AB1015'] = test['AB1015']
+    # AB1014
+    result_data['AB1014'] = test['AB1014']
+    # AB1013
+    result_data['AB1013'] = test['AB1013']
+    # AB1010
+    result_data['AB1010'] = test['AB1010']
+    # AB1009
+    result_data['AB1009'] = test['AB1009']
+    # AB1008
+    result_data['AB1008'] = test['AB1008']
+    # AB1007
+    result_data['AB1007'] = test['AB1007']
+    # AB1006
+    result_data['AB1006'] = test['AB1006']
+
     return result_data
     # print("test_pred: ")
     # print(test_pred)
